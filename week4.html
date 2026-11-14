@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding club</title>
+</head>
+<body>
+    <a href="events">events</a>
+    <a href="register">Register</a>
+    <header>
+        <h1>coding club</h1>
+        <p>learn.build.share</p>
+    </header>
+    <h2 id="events">Upcoming events</h2>
+    <table border="1";>
+        <caption>club events</caption>
+        <thead>
+            <tr>
+                <th>event</th>
+                <th>date</th>
+                <th>venue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML Workshop</td>
+                <td>12 nov</td>
+                <td>Lab 1</td>
+            </tr>
+            <tr>
+                <td>Hackathon</td>
+                <td>20 nov</td>
+                <td>Seminar Hall</td>
+            </tr>
+            
+         <tfoot>
+             <tr>
+                <td colspan="3"> 
+                Total Events: 2</td>
+            </tr>
+         </tfoot>
+        </tbody>
+    </table>
+    <h1>Register</h1>
+    <form>
+        <lable for-="name">Full name:</lable>
+        <input type="text" id="name" 
+        placeholder="enter your name">
+        <br><br>
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" 
+        placeholder="enter your email">
+        <br><br>
+        <lable for="password">Password:</lable>
+        <input type="password" id="password" 
+        placeholder="enter your password">
+        <br><br>
+        <lable for="d.o.b">Date of birth:</lable>
+        <input type="date" id="date">
+        <br><br>
+        <lable for="phone">phone:</lable>
+        <input type="tel" id="phone">
+        <br><br>
+        <lable for="gender">Gender:</lable>
+        <br><br>
+        <input type="radio" id="male" name="gender">
+        <lable for="male">male</lable>
+        <input type="radio" id="female" name="gender">
+        <lable for="female">Female</lable>
+        <br><br>
+        <lable for="Interests">Interests:</lable>
+        <input type="checkbox" id="WEB">
+        <lable for="web">Web</lable>
+        <input type="checkbox" id="DSA">
+        <lable for="dsa">DSA</lable> 
+        <br><br>
+        <lable for="branch">branch:</lable> 
+        <select>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>B.TECH</option>
+        </select>
+        <br><br>
+        <label>why do you went to join?"</label>
+        <br>
+        <textarea rows="5" cols="40"></textarea>
+        <br><br>
+        <input type="submit" value="register">
+    </form>
+
+</body>
+</html>
